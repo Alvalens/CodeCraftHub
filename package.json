@@ -1,7 +1,7 @@
 {
   "name": "user-management-service",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,11 @@
   "homepage": "https://github.com/Alvalens/CodeCraftHub#readme",
   "description": "",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "dotenv": "^16.5.0",
-    "mongoose": "^8.15.0"
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.0",
+    "supertest": "^7.1.1"
   }
 }
